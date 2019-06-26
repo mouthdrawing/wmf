@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="utf-8">
+  <title>where is my flower</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="swiper.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Demo styles -->
+  <style>
+    html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 2em;
+      background: #fff;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+	  align-items: center;
+	  background-size: contain;
+	  background-repeat: no-repeat;
+	  background-position: center center;
+    }
+  </style>
+</head>
+<body>
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="bookcover">
+          <h1 class="booktitle">where is my flower</h1>
+          <span class="writer">written by jun</span>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <span class="sentence">연필에 핀 꽃이 없는 종이를 깨운다</span>
+      </div>
+      <div class="swiper-slide">
+        <span class="sentence">없는 시곗바늘에 꽃을 포갠다</span>
+      </div>
+      <div class="swiper-slide">
+        <span class="sentence">없는 숲을 달린다</span>
+      </div>
+      <div class="swiper-slide">
+        <span class="sentence">꽃우산</span>
+      </div>
+      <div class="swiper-slide">
+        <span class="sentence">물구나무 서는 꽃</span>
+      </div>
+    </div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+</html>

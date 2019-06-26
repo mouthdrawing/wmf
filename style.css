@@ -1,0 +1,26 @@
+.swiper-slide:nth-child(1) .booktitle {
+	font-size: 3em;
+	padding-bottom: 200px;
+}
+
+.swiper-slide:nth-child(2) {
+	background-image: url(images/wmf001.svg)
+}
+.swiper-slide:nth-child(3) {
+	background-image: url(images/wmf002.svg)
+}
+.swiper-slide:nth-child(4) {
+	background-image: url(images/wmf003.svg)
+}
+.swiper-slide:nth-child(5) {
+	background-image: url(images/wmf004.svg)
+}
+.swiper-slide:nth-child(6) {
+	background-image: url(images/wmf005.svg)
+}
+
+.swiper-slide .sentence {
+	position: absolute;
+	bottom: 80px;
+	font-size: 0.65em;
+}
