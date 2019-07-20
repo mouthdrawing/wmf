@@ -3,17 +3,16 @@
   width="2700" height="1950">
 
 <defs>
+
   <g id="object" stroke="black" stroke-width="3" fill="none">
     
-    <path d="M0 150 0 0 70 0 70 155
-            M0 150 380 170
-            C390 350 390 400 400 500
-            L0 500 Z
-            M360 500 360 600 320 600 320 500
-            M60 598.5 Q70 580 60 580 T60 598.5 Z
-            M60 500 Q64 540 60 580
-            M61 550 Q75 555 80 580
-            M62 530 Q58 550 40 560" />
+    <path d="M0 250 0 0 100 0 100 255
+            M0 250 490 265 500 650 0 650 Z
+            M475 650 475 750 435 750 435 650
+            M50 748.5 Q60 730 50 730 T50 748.5 Z
+            M50 650 Q54 690 50 730
+            M51 700 Q65 705 70 730
+            M52 680 Q48 700 30 710" />
   </g>
   
   <g id="jun" stroke="black" stroke-width="2" fill="none">
@@ -34,12 +33,12 @@
 
 </defs>
 
-<rect width="2700" height="1950"
-	stroke="none" fill="white" />
+  <rect width="2700" height="1950"
+    stroke="none" fill="white" />
+  
+  <use xlink:href="#object" x="1100" y="600" />
 
-  <use xlink:href="#object" x="1150" y="705" />
-
-  <use xlink:href="#jun" x="1700" y="1495" />
+  <use xlink:href="#jun" x="1700" y="1600" />
 
   
 </svg>

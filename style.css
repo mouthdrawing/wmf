@@ -1,26 +1,40 @@
-.swiper-slide:nth-child(1) .booktitle {
-	font-size: 3em;
-	padding-bottom: 200px;
+.swiper-slide:nth-child(1) {
+	font-size: 5em;
+	font-weight: 900;
 }
 
 .swiper-slide:nth-child(2) {
-	background-image: url(images/wmf001.svg)
-}
-.swiper-slide:nth-child(3) {
-	background-image: url(images/wmf002.svg)
-}
-.swiper-slide:nth-child(4) {
-	background-image: url(images/wmf003.svg)
-}
-.swiper-slide:nth-child(5) {
-	background-image: url(images/wmf004.svg)
-}
-.swiper-slide:nth-child(6) {
-	background-image: url(images/wmf005.svg)
+	font-size: 2em;
 }
 
-.swiper-slide .sentence {
-	position: absolute;
-	bottom: 80px;
-	font-size: 0.65em;
+#pencil {
+	background-image: url(images/pencil.svg);
+}
+
+#clock {
+	background-image: url(images/clock.svg);
+}
+
+#cycle {
+	background-image: url(images/cycle.svg);
+}
+
+#umbrella {
+	background-image: url(images/umbrella.svg);
+}
+
+#sofa {
+	background-image: url(images/sofa.svg);
+}
+
+#shoe {
+	background-image: url(images/shoe.svg);
+}
+
+#lighter {
+	background-image: url(images/lighter.svg);
+}
+
+.swiper-slide:last-child {
+	font-size: 1.7em;
 }
