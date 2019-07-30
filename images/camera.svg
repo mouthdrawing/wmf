@@ -5,19 +5,12 @@
 <defs>
 
   <g id="object" stroke="black" stroke-width="3" fill="none">
-    
-    <path d="M40 40 Q-35 200 30 450
-          C50 517 400 500 900 495
-          C1350 500 1170 400 1100 389
-          C850 335 400 300 350 0
-          C300 70 100 100 40 40 Z" />
 
-  </g>
-  
-  <g id="flower" stroke="black" stroke-width="3" fill="none">
-
-    <path d="M0 30 Q0 0 10 10 Q20 20 0 30 Z
-            M10 10 Q10 5 15 0" />
+    <path d="M0 25 900 25 900 550 0 550 Z
+			M140 25 C130 20 140 10 150 0
+			C160 10 170 20 160 25" />
+	
+    <circle cx="550" cy="287" r="200" />
 
   </g>
   
@@ -34,16 +27,13 @@
             M134 10 Q140 10 145 14
             M123 19 C140 15 157 21 137 28
             M127 24 C130 37 130 36 145 33" />
-  
+
   </g>
 
 </defs>
 
-  <use xlink:href="#object" x="300" y="450" />
+  <use xlink:href="#object" x="450" y="375" />
 
-  <use xlink:href="#flower" x="680" y="565" />
+  <use xlink:href="#jun" x="1450" y="1150" />
 
-  <use xlink:href="#jun" x="1600" y="1100" />
-
-  
 </svg>

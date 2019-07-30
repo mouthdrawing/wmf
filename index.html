@@ -1,90 +1,132 @@
 <!DOCTYPE html>
 <html lang="kr">
-<head>
-  <meta charset="utf-8">
-  <title>where is my flower</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <title>where is my flower</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
 
-  <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="swiper.min.css">
-  <link rel="stylesheet" href="style.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="swiper.min.css" />
+    <link rel="stylesheet" href="style.css" />
 
-  <!-- Demo styles -->
-  <style>
-    html, body {
-      position: relative;
-      height: 100%;
-    }
-    body {
-      background: #eee;
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-      font-size: 14px;
-      color:#000;
-      margin: 0;
-      padding: 0;
-    }
-    .swiper-container {
-      width: 100%;
-      height: 100%;
-    }
-    .swiper-slide {
-      text-align: center;
-      font-size: 3em;
-      background: #fff;
-      /* Center slide text vertically */
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      -webkit-justify-content: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      align-items: center;
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center center;
-    }
-  </style>
-</head>
-<body>
-  <!-- Swiper -->
-  <div class="swiper-container">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">나의 꽃은 어디에 있나요</div>
-      <div class="swiper-slide">김준호 그림책</div>
-      <div class="swiper-slide" id="pencil"></div>
-      <div class="swiper-slide">연필에 핀 꽃이 없는 종이를 깨운다</div>
-      <div class="swiper-slide" id="clock"></div>
-      <div class="swiper-slide">없는 시곗바늘에 꽃을 포갠다</div>
-      <div class="swiper-slide" id="cycle"></div>
-      <div class="swiper-slide">없는 숲을 달린다</div>
-      <div class="swiper-slide" id="umbrella"></div>
-      <div class="swiper-slide">꽃우산</div>
-      <div class="swiper-slide" id="sofa"></div>
-      <div class="swiper-slide">물구나무 서는 꽃</div>
-      <div class="swiper-slide" id="shoe"></div>
-      <div class="swiper-slide">꽃이 시들면 없는 신발을 신을 것이다</div>
-      <div class="swiper-slide" id="lighter"></div>
-      <div class="swiper-slide">라이터가 없는 혀를 내민다</div>
-      <div class="swiper-slide">끝</div>
+    <!-- Demo styles -->
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+      .swiper-container {
+        width: 100%;
+        height: 100%;
+      }
+      .swiper-slide {
+        text-align: center;
+        font-size: 3em;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">나의 꽃은 어디에 있나요</div>
+        <div class="swiper-slide">김준호 그림책</div>
+        <div class="swiper-slide">
+          <img class="slide-drawing" src="images/pencil.svg" />
+        </div>
+        <div class="swiper-slide">연필에 핀 꽃이 없는 종이를 깨운다</div>
+        <div class="swiper-slide">
+          <img class="slide-drawing" src="images/clock.svg" />
+        </div>
+        <div class="swiper-slide">없는 시곗바늘에 꽃을 포갠다</div>
+        <div class="swiper-slide">
+          <img class="slide-drawing" src="images/cycle.svg" />
+        </div>
+        <div class="swiper-slide">없는 숲을 달린다</div>
+        <div class="swiper-slide">
+          <img class="slide-drawing" src="images/umbrella.svg" />
+        </div>
+        <div class="swiper-slide">꽃우산</div>
+        <div class="swiper-slide">
+          <img class="slide-drawing" src="images/shoe.svg" />
+        </div>
+        <div class="swiper-slide">없는 신발을 신을 것이다</div>
+        <div class="swiper-slide">
+          <img class="slide-drawing" src="images/glowlamp.svg" />
+        </div>
+        <div class="swiper-slide">없는 불이 켜질 거예요</div>
+        <div class="swiper-slide">
+          <img class="slide-drawing" src="images/sofa.svg" />
+        </div>
+        <div class="swiper-slide">물구나무 서는 꽃</div>
+        <div class="swiper-slide">
+          <img class="slide-drawing" src="images/lighter.svg" />
+        </div>
+        <div class="swiper-slide">없는 혀를 내민다</div>
+        <div class="swiper-slide">
+          <img class="slide-drawing" src="images/frame.svg" />
+        </div>
+        <div class="swiper-slide">다음 전시 이름은 뒷면입니다</div>
+        <div class="swiper-slide">
+          <img class="slide-drawing" src="images/camera.svg" />
+        </div>
+        <div class="swiper-slide">이 꽃을 마구 눌러주세요</div>
+        <div class="swiper-slide">
+          <img class="slide-drawing" src="images/bottle.svg" />
+        </div>
+        <div class="swiper-slide">이 꽃을 꺾어줄 따개는 어디에 있나요</div>
+        <div class="swiper-slide">
+          <img class="slide-drawing" src="images/pianokeyboard.svg" />
+        </div>
+        <div class="swiper-slide">건반에 핀 꽃의 향을 한 문장으로 써주세요</div>
+        <div class="swiper-slide">
+          <img class="slide-drawing" src="images/slipper.svg" />
+        </div>
+        <div class="swiper-slide">당신의 리듬에 맞춰 춤 출 거예요</div>
+        <div class="swiper-slide">끝</div>
+      </div>
     </div>
-  </div>
 
-  <!-- Swiper JS -->
-  <script src="swiper.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="swiper.min.js"></script>
 
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
-  </script>
-</body>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev"
+        }
+      });
+    </script>
+  </body>
 </html>

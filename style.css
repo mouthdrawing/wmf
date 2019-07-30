@@ -1,40 +1,24 @@
 .swiper-slide:nth-child(1) {
-	font-size: 5em;
-	font-weight: 900;
+  font-size: 5em;
+  font-weight: 900;
 }
 
 .swiper-slide:nth-child(2) {
-	font-size: 2em;
+  font-size: 2em;
 }
 
-#pencil {
-	background-image: url(images/pencil.svg);
-}
-
-#clock {
-	background-image: url(images/clock.svg);
-}
-
-#cycle {
-	background-image: url(images/cycle.svg);
-}
-
-#umbrella {
-	background-image: url(images/umbrella.svg);
-}
-
-#sofa {
-	background-image: url(images/sofa.svg);
-}
-
-#shoe {
-	background-image: url(images/shoe.svg);
-}
-
-#lighter {
-	background-image: url(images/lighter.svg);
+.swiper-slide .slide-drawing {
+  width: auto;
+  height: 90vh;
 }
 
 .swiper-slide:last-child {
-	font-size: 1.7em;
+  font-size: 1.7em;
+}
+
+@media screen and (max-width: 500px) {
+  .swiper-slide .slide-drawing {
+    width: 100vw;
+    height: auto;
+  }
 }
