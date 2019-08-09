@@ -16,9 +16,21 @@
   font-size: 1.7em;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
+  .swiper-slide {
+    font-size: 0.7em;
+  }
   .swiper-slide .slide-drawing {
     width: 100vw;
     height: auto;
+  }
+  .swiper-slide:nth-child(1) {
+    font-size: 2em;
+  }
+  .swiper-slide:nth-child(2) {
+    font-size: 1em;
+  }
+  .swiper-slide:last-child {
+    font-size: 0.9em;
   }
 }

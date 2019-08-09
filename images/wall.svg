@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="1300" height="1800">
+
+<defs>
+
+  <g id="object" stroke="black" stroke-width="3" fill="none">
+
+    <path d="M350 0 C330 50 170 110 125 100
+            C110 150 80 250 0 300
+            C80 300 130 300 180 450
+            C250 350 350 380 420 400
+            C440 300 500 360 500 150
+            C450 150 350 100 350 0 Z
+            M200 90 384 90
+            M97 180 500 180
+            M38 270 487 270
+            M140 360 435 360
+            M240 90 240 180
+            M190 180 190 270
+            M395 180 395 270
+            M240 270 240 360
+            M190 360 190 437
+            M395 360 395 393" />
+
+  </g>
+
+  <g id="flower" stroke="black" stroke-width="3" fill="none">
+
+    <path d="M75 350 Q55 330 75 330 T75 350 Z
+            M75 330 Q80 300 75 0
+            M150 270 Q120 180 77 160
+            M0 250 Q50 220 76 100" />
+
+  </g>
+
+  <g id="jun" stroke="black" stroke-width="2" fill="none">
+
+    <path d="M2 1 C50 15 -33 40 23 34
+            M36 4 C34 6 17 35 38 34
+            C54 35 47 -10 36 4 Z
+            M65 1 Q60 7 60 35
+            M97 9 C97 -7 64 5 85 15
+            Q97 20 97 9
+            Q95 30 97 35
+            M124 2 C145 -5 145 11 124 12
+            M134 10 Q140 10 145 14
+            M123 19 C140 15 157 21 137 28
+            M127 24 C130 37 130 36 145 33" />
+
+  </g>
+
+</defs>
+
+  <use xlink:href="#object" x="300" y="400" />
+
+  <use xlink:href="#flower" x="460" y="800" />
+  
+  <use xlink:href="#jun" x="1000" y="1550" />
+
+</svg>

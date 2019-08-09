@@ -6,27 +6,17 @@
 
   <g id="object" stroke="black" stroke-width="3" fill="none">
 
-	<path d="M105 0 C70 0 70 0 70 30
-			C70 225 70 225 35 250
-			C0 275 0 275 0 400
-			L0 720
-			C0 750 0 750 35 750
-			L175 750
-			C210 750 210 750 210 720
-			L210 400
-			C210 275 210 275 175 250
-			C140 225 140 225 140 30
-			C140 0 140 0 105 0 Z" />
+	<path d="M0 0 600 0 600 900 0 900 Z
+			M60 60 540 60 540 840 60 840 Z" />
 
   </g>
 
   <g id="flower" stroke="black" stroke-width="3" fill="none">
 
-		<path d="M200 3 Q185 30 200 30 T200 3 Z" />
-
-		<path d="M200 30 Q215 200 200 450
-				M0 80 Q170 150 207 280
-				M400 120 Q350 250 205 359" />
+	<path d="M50 220 Q40 200 50 200 T50 220 Z
+			M50 0 Q60 180 50 200
+			M100 180 Q80 130 55 120
+			M0 150 Q40 150 54 90" />
 
   </g>
 
@@ -48,10 +38,10 @@
 
 </defs>
 
-  <use xlink:href="#object" x="545" y="750" />
+  <use xlink:href="#object" x="350" y="350" />
   
-  <use xlink:href="#flower" x="450" y="300" />
+  <use xlink:href="#flower" x="600" y="1250" />
 
-  <use xlink:href="#jun" x="1000" y="1650" />
+  <use xlink:href="#jun" x="1050" y="1600" />
 
 </svg>
